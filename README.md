@@ -83,9 +83,10 @@ cd zenskar-assignment/terraform
 2. Locate the API Gateway named `ngx-api` where our Nginx is deployed.
 <img width="676" alt="Screenshot 2024-05-20 at 7 59 06 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/f5c7ad7b-11c5-45fd-91bb-a1b5c247a74e">
 
+<img width="1058" alt="Screenshot 2024-05-20 at 8 02 45 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/c8585e10-6d51-43de-ae17-0c1a07cd0093">
 
 
-3. Click on the stages and navigate to "default" to copy the Invoke URL and paste it in the browser:
+3. Click on the stages and navigate to "default" to copy the Invoke URL and paste it into the browser:
 
 
 <img width="684" alt="Screenshot 2024-05-20 at 8 00 55 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/5e7c1913-082e-4a8c-920e-c4a830d2e9fe">
@@ -96,7 +97,7 @@ cd zenskar-assignment/terraform
 https://<id>.execute-api.us-east-1.amazonaws.com/default/
 ```
 
-5. You will see a welcome message from Instance 1, indicating that it is serving the Nginx page. Depending on the load, you may also see "Welcome from Instance 2", demonstrating the main purpose of the API Gateway.
+5. You will see a welcome message from Instance 1, indicating that it serves the Nginx page. Depending on the load, you may also see "Welcome from Instance 2", demonstrating the main purpose of the API Gateway.
 
 <img width="951" alt="Screenshot 2024-05-20 at 8 00 09 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/893a83d4-23b8-40e2-b8a6-f15c1a4c545c">
 
