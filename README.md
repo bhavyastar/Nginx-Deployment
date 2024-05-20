@@ -103,4 +103,10 @@ https://<id>.execute-api.us-east-1.amazonaws.com/default/
 
 <img width="951" alt="Screenshot 2024-05-20 at 8 00 09 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/893a83d4-23b8-40e2-b8a6-f15c1a4c545c">
 
-```
+
+
+## Architecture
+
+<img width="1024" alt="Screenshot 2024-05-20 at 8 05 46 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/1b73f9e5-5295-4cbc-9a57-97649f92ef58">
+
+
