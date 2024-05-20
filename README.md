@@ -14,6 +14,7 @@ This project demonstrates how to deploy an Nginx web server on private instances
 - **API Gateway Module**: Sets up an API Gateway to expose services through the ALB and display the Nginx page.
 
 ## Prerequisites
+<img width="889" alt="Screenshot 2024-05-20 at 8 04 14 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/99ff4413-0499-4d32-9025-7f5eb08a70e1">
 
 - Terraform 0.13+
 - AWS CLI with configured credentials
@@ -37,7 +38,7 @@ This project demonstrates how to deploy an Nginx web server on private instances
    ```bash
    /Users/bhavyasachdeva/Desktop/zenskar-assignment
    ```
-<img width="642" alt="Screenshot 2024-05-20 at 7 57 51 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/9ace737e-f608-4cb7-85be-e3aff3186929">
+
 
    
 
@@ -88,6 +89,7 @@ cd zenskar-assignment/terraform
 
 3. Click on the stages and navigate to "default" to copy the Invoke URL and paste it into the browser:
 
+<img width="642" alt="Screenshot 2024-05-20 at 7 57 51 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/9ace737e-f608-4cb7-85be-e3aff3186929">
 
 <img width="684" alt="Screenshot 2024-05-20 at 8 00 55 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/5e7c1913-082e-4a8c-920e-c4a830d2e9fe">
 
