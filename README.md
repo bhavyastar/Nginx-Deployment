@@ -28,7 +28,8 @@ This project demonstrates how to deploy an Nginx web server on private instances
    ```
    Enter your AWS Access Key ID, Secret Access Key, region, and output format.
 
-   ![AWS CLI Configuration](https://hackmd.io/_uploads/r1789XdXA.png)
+   <img width="455" alt="Screenshot 2024-05-20 at 7 57 23 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/13aa4e75-b40e-406c-9f33-6a6258b0ea90">
+
 
 2. **Configure Paths**:
    In `terraform/main.tf`, update the actual path of your `key.pem`. In `module/ec2/main.tf`, configure the template file path and file name path. Use `pwd` in your terminal from your project's root directory (e.g., `zenskar-assignment`) and adjust the paths accordingly. 
@@ -36,8 +37,9 @@ This project demonstrates how to deploy an Nginx web server on private instances
    ```bash
    /Users/bhavyasachdeva/Desktop/zenskar-assignment
    ```
+<img width="642" alt="Screenshot 2024-05-20 at 7 57 51 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/9ace737e-f608-4cb7-85be-e3aff3186929">
 
-   ![Path Configuration](https://hackmd.io/_uploads/SyrY27Om0.png)
+   
 
 ## Clone the Repository
 
@@ -66,7 +68,8 @@ cd zenskar-assignment/terraform
 
 4. Automation ensures that Ansible does not require manual intervention.
 
-   ![Ansible Automation](https://hackmd.io/_uploads/r1W307dmC.png)
+   
+<img width="646" alt="Screenshot 2024-05-20 at 7 58 23 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/8e5fdcc2-f4f7-4446-aac0-49047efcebf8">
 
 
 
@@ -74,15 +77,18 @@ cd zenskar-assignment/terraform
 
 1. After completing all steps, go to your AWS Console. You should see that instances are running, and the load balancer is configured properly.
 
-![AWS Console Load Balancer](https://hackmd.io/_uploads/SkX-1E_XA.png)
+<img width="677" alt="Screenshot 2024-05-20 at 7 58 42 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/8f0737bb-8dbc-4989-bd6b-e6db29097c8c">
+
 
 2. Locate the API Gateway named `ngx-api` where our Nginx is deployed.
+<img width="676" alt="Screenshot 2024-05-20 at 7 59 06 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/f5c7ad7b-11c5-45fd-91bb-a1b5c247a74e">
 
-![API Gateway](https://hackmd.io/_uploads/SJ571VOXA.png)
+
 
 3. Click on the stages and navigate to "default" to copy the Invoke URL and paste it in the browser:
 
-![Invoke URL](https://hackmd.io/_uploads/r19FkE_X0.png)
+
+<img width="684" alt="Screenshot 2024-05-20 at 8 00 55 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/5e7c1913-082e-4a8c-920e-c4a830d2e9fe">
 
 4. Add the root path after "default" like this:
 
@@ -92,5 +98,6 @@ https://<id>.execute-api.us-east-1.amazonaws.com/default/
 
 5. You will see a welcome message from Instance 1, indicating that it is serving the Nginx page. Depending on the load, you may also see "Welcome from Instance 2", demonstrating the main purpose of the API Gateway.
 
-![Welcome Page](https://hackmd.io/_uploads/BJ37eEdXA.png)
+<img width="951" alt="Screenshot 2024-05-20 at 8 00 09 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/893a83d4-23b8-40e2-b8a6-f15c1a4c545c">
+
 ```
