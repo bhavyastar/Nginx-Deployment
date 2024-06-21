@@ -14,7 +14,7 @@ This project demonstrates how to deploy an Nginx web server on private instances
 - **API Gateway Module**: Sets up an API Gateway to expose services through the ALB and display the Nginx page.
 
 ## Prerequisites
-<img width="889" alt="Screenshot 2024-05-20 at 8 04 14 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/99ff4413-0499-4d32-9025-7f5eb08a70e1">
+
 
 - Terraform 0.13+
 - AWS CLI with configured credentials
