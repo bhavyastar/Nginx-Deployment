@@ -45,8 +45,8 @@ This project demonstrates how to deploy an Nginx web server on private instances
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/bhavyastar/zenskar-assignment.git
-cd zenskar-assignment/terraform
+git clone https://github.com/bhavyastar/nginx-deployment.git
+cd nginx-deployment/terraform
 ```
 
 ## Using Terraform Commands to Create Infrastructure
