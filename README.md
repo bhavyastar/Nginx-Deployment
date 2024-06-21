@@ -33,10 +33,10 @@ This project demonstrates how to deploy an Nginx web server on private instances
 
 
 2. **Configure Paths**:
-   In `terraform/main.tf`, update the actual path of your `key.pem`. In `module/ec2/main.tf`, configure the template file path and file name path. Use `pwd` in your terminal from your project's root directory (e.g., `zenskar-assignment`) and adjust the paths accordingly. 
+   In `terraform/main.tf`, update the actual path of your `key.pem`. In `module/ec2/main.tf`, configure the template file path and file name path. Use `pwd` in your terminal from your project's root directory (e.g., `nginx-deployment`) and adjust the paths accordingly. 
 
    ```bash
-   /Users/bhavyasachdeva/Desktop/zenskar-assignment
+   /Users/bhavyasachdeva/Desktop/nginx-deployment
    ```
 
 
@@ -89,7 +89,7 @@ cd nginx-deployment/terraform
 
 3. Click on the stages and navigate to "default" to copy the Invoke URL and paste it into the browser:
 
-<img width="642" alt="Screenshot 2024-05-20 at 7 57 51 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/9ace737e-f608-4cb7-85be-e3aff3186929">
+
 
 <img width="684" alt="Screenshot 2024-05-20 at 8 00 55 AM" src="https://github.com/bhavyastar/zenskar-assignment/assets/84725791/5e7c1913-082e-4a8c-920e-c4a830d2e9fe">
 
